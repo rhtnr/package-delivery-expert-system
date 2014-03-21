@@ -2,8 +2,18 @@ README
 ======
 
 
-Name: Rohit K Nair
-UFID: 4698-3602
+This is a package delivery simulation expert system programmed using CLIPS.
+A truck is required to drive the shortest route to the
+pickup city, pick the package up, drive the
+shortest route to the destination, deliver
+the package, then drive the shortest rout
+e back to Orlando to wait for the next
+shipping order.
+
+Main Exec File: SOURCE.clp
+City data:cities.txt
+Truck data: trucks.txt
+Package data: packages.txt
 
 
 
