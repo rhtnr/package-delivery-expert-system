@@ -1,0 +1,88 @@
+NAME: ROHIT K NAIR
+UFID: 46983602
+
+
+
+
+
+
+******
+REPORT
+******
+
+(I have included the dribble file along with this package.)
+The following is the final generated report by the source:
+
+TRUCK REPORT:
+
+      Truck#      TotalWaitTime     TotalBusyTime     Pec.TimeBusy             #Pkgs      Non.DelvryTime      Pec.OfBusyTimeDlvrng     WeightedAvgOfTruckOccupied 
+           1               240               25             9.43%                 1                13            48.00%             90.00%     
+           2               225               40            15.09%                 5                27            32.50%             62.50%     
+           3               164              101            38.11%                 9                60            40.59%             52.85%     
+           4               265                0             0.00%                 0                 0             0.00%              0.00%     
+           5               265                0             0.00%                 0                 0             0.00%              0.00%     
+           6               214               51            19.25%                 5                31            39.22%             49.17%     
+
+
+PACKAGE REPORT:
+
+Package#      WaitTime     PickUpTime     DelvTime       Late?      LateTime      
+     1           0          1               4               -            0      
+     2           1          5               8               -            0      
+     3           8         16              19               -            0      
+     4           5         25              30               -            0      
+     5           1         31              32               -            0      
+     6           0         40              43               -            0      
+     7           3         68              71               -            0      
+     8           5         85              88               -            0      
+     9           2         92              96               -            0      
+    10           3        113             116               -            0      
+    11           1        111             115               -            0      
+    12           3        123             132               -            0      
+    13           5        155             161            LATE            6      
+    14           5        155             161            LATE            1      
+    15           5        155             164               -            0      
+    16           5        205             207               -            0      
+    17           3        223             225               -            0      
+    18           5        245             257               -            0      
+    19           2        252             253               -            0      
+    20           1        251             255               -            0      
+
+
+
+AVERAGE REPORT:
+
+Average Wait Time/Package = 3.15
+#Packages on time = 18
+#Late = 2
+Avg Lateness FOR ALL PACKAGES = 0.35
+Avg Lateness FOR LATE PACKAGES = 3.5
+
+
+
+===============================
+OTHER DETAILS ABOUT THE PROJECT
+===============================
+
+
+For package delivery, the best fit heuristics is applied. 
+Therefore the truck with the least space left if taking
+in the package is sent for pickup and not the truck with least
+index number. This ensures the bigger capacity truck is saved for
+larger packages.
+
+The halt and report generation is taken care of when
+all trucks are back in Orlando and there is no package 
+left for delivery.
+
+The global time fact is represented by (time n).
+All idle trucks are in sync with the global time.
+The travelling trucks are taken care of when it is time to
+reach their destinations and therefore updating their time
+values with every update of time was not required
+
+
+
+
+
+

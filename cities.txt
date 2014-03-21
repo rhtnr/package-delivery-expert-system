@@ -1,0 +1,16 @@
+Tallahassee Lake-City 2
+Lake-City Jacksonville 1
+Lake-City Gainesville 1
+Gainesville St.-Augustine 1
+Jacksonville St.-Augustine 1
+Gainesville Ocala 1
+St.-Augustine Orlando 2
+Ocala Orlando 1
+Ocala Tampa 2
+Orlando Tampa 1
+Tampa Ft.-Myers 2
+Orlando West-Palm 3
+St.-Augustine West-Palm 3
+Ft.-Myers West-Palm 3
+West-Palm Miami 2
+Miami Key-West 3
